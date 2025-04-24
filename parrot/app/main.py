@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from parrot.app.settings import get_settings
+from parrot.app.config.settings import get_settings
 
 
 def create_app() -> FastAPI:
